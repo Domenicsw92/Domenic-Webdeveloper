@@ -1,7 +1,42 @@
-  body{ }
-  header{
-      background-color: rgb(127, 172, 255);
+  *{margin: 0;
+    padding: 0;}
+ 
+  body{
+    position: relative;
+    background-color: darkslategray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+    
+    header{
+      background-color:darkgrey;
       color: seashell;
       padding: 2%;
+      line-height: 60px;
+      height: 75px;
+      width: 100%;
+     }
+
+    
+     h1 {font-size: 300%;}
+    
+     nav {text-align: right;}
+    
+     a {
+      text-decoration: none;
+      color: #FDF8F5;
       }
-  h1{font-size: 300%;}
+    
+      .underline {
+    text-decoration: underline;
+    list-style-type: none;
+    text-align: right;
+    display: inline;
+    font-size: 40px;
+    padding: 25px;
+
+  }
+  .Avatar{
+    width:300px;
+    border-radius: 50%;
+   }
+ 
