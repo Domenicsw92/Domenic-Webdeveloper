@@ -52,16 +52,18 @@
 
 
   .container2{
-   border: 5px solid red;
+   border: 5px solid black;
    float: right;
-   margin-top: 20px;
-   margin-bottom: 20px;
-   height: 900px;
+   margin-top: 100px;
+   margin-bottom: 50px;
+   height: 100px;
    width: 1200px;
-   background-color: darkblue ;
+   background-color: dimgray ;
+   color: seashell;
    text-align: center;
    flex:initial;
    }
+   
 
  .mywork1{
    height: 300px;
@@ -69,6 +71,17 @@
    background-size: cover;
    background-position: center;
  }
+ .container3{
+  border: 5px dashed black;
+   float: right;
+   margin-top: auto;
+   margin-bottom: 200px;
+   padding: 30px;
+   height: 1500px;
+   width: 1300px;
+   background-color: dimgray ;
+   text-align: center;
+   flex:initial;}
 
  footer{
    flex-shrink: 0;
