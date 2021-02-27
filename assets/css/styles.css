@@ -1,16 +1,17 @@
-  *{margin: 0;
-    padding: 0;}
+  *{margin: auto;
+    padding: auto;}
  
   body{
     position: relative;
     background-color: darkslategray;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
    }
     
     header{
       background-color:darkgrey;
       color: seashell;
-      padding: 2%;
+      padding: 40px;
       line-height: 60px;
       height: 75px;
       width: 100%;
@@ -26,7 +27,13 @@
       color: #FDF8F5;
       }
     
-      .underline {
+  main{
+    display: flex;
+    flex-wrap: wrap;
+
+
+  }
+    .underline {
     text-decoration: underline;
     list-style-type: none;
     text-align: right;
@@ -35,8 +42,38 @@
     padding: 25px;
 
   }
+  .text-center{
+    text-align: center;
+  }
   .Avatar{
     width:300px;
     border-radius: 50%;
    }
- 
+
+
+  .container2{
+   border: 5px solid red;
+   float: right;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   height: 900px;
+   width: 1200px;
+   background-color: darkblue ;
+   text-align: center;
+   flex:initial;
+   }
+
+ .mywork1{
+   height: 300px;
+   width: auto;
+   background-size: cover;
+   background-position: center;
+ }
+
+ footer{
+   flex-shrink: 0;
+   padding: 20px;
+   text-align: center;
+   background-color: darkgray;
+   color: seashell;
+ }
